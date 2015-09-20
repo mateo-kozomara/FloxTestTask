@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="SmartMicFirstTry">
+    <configurations>
+      <configuration name="SmartMicFirstTry" target-platform="Mobile" pure-as="true" main-class="SmartMic" output-file="SmartMic.swf" output-folder="$MODULE_DIR$/out/production/SmartMic">
+        <dependencies target-player="16.0">
+          <entries>
+            <entry library-name="AS3-Signals" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="GreenSock" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="Gestouch" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="robotlegs-framework-v2.1.0" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="RobotlegsStarlingExtension" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="Robotlegs2-SignalCommandMap" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="Starling" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="Feathers" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="6cc32d2d-9301-45ff-abbd-a75b526e0946">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AIRSDK_16.292_Compiler" />
+        </dependencies>
+        <compiler-options>
+          <option name="additionalOptions" value="-swf-version=25" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/SmartMic-app.xml" package-file-name="SmartMic" />
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/SmartMic-app.xml" package-file-name="SmartMic" />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIRSDK_16.292_Compiler" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="AS3-Signals" level="application" />
+    <orderEntry type="library" exported="" name="GreenSock" level="application" />
+    <orderEntry type="library" exported="" name="Gestouch" level="application" />
+    <orderEntry type="library" exported="" name="robotlegs-framework-v2.1.0" level="application" />
+    <orderEntry type="library" exported="" name="RobotlegsStarlingExtension" level="application" />
+    <orderEntry type="library" exported="" name="Robotlegs2-SignalCommandMap" level="application" />
+    <orderEntry type="library" exported="" name="Starling" level="application" />
+    <orderEntry type="library" exported="" name="Feathers" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="6cc32d2d-9301-45ff-abbd-a75b526e0946" />
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/speech-ANE-master/CC/lib/speechExtensions.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

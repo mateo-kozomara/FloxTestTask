@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="FloxTest">
+    <configurations>
+      <configuration name="FloxTest" target-platform="Mobile" pure-as="true" main-class="FloxTest" output-file="FloxTest.swf" output-folder="$MODULE_DIR$/out/production/FloxTest">
+        <dependencies target-player="16.0">
+          <entries>
+            <entry library-id="30e0a3f0-2390-4ee5-8ae6-18f78f0093f6">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="fd5a4f51-d1eb-4b19-931a-c2d61cf9cdfb">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="e8290e95-2c5e-45b1-a79f-ef9eddafab14">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="9e7b25c4-69f8-4585-b269-cd7fc3155a34">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="f812688a-8524-462d-a76b-0c31dff7f361">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="2ec94adf-bb6a-45f7-bbac-b0bf7353b1d1">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="8f2c5d10-84d4-4a1f-b64f-73635ccf0931">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="dd2a1961-c7c6-4d9c-a08b-885caf875db8">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="5529aee6-e097-4aca-8f73-e1c396d7774a">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AIRSDK_18" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/FloxTest-app.xml" package-file-name="SmartMic" />
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/FloxTest-app.xml" package-file-name="SmartMic" />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIRSDK_18" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="30e0a3f0-2390-4ee5-8ae6-18f78f0093f6" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/libs/as3Signals/src" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="fd5a4f51-d1eb-4b19-931a-c2d61cf9cdfb" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/libs/feathers/source" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="e8290e95-2c5e-45b1-a79f-ef9eddafab14" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/libs/gestouch/src" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="9e7b25c4-69f8-4585-b269-cd7fc3155a34" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/libs/greensock/src" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="f812688a-8524-462d-a76b-0c31dff7f361" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/robotlegs2/robotlegs-framework-v2.1.0.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="2ec94adf-bb6a-45f7-bbac-b0bf7353b1d1" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/libs/robotlegsCommandMapExtension/src" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="8f2c5d10-84d4-4a1f-b64f-73635ccf0931" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/libs/robotlegsStarlingExtension/src" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="dd2a1961-c7c6-4d9c-a08b-885caf875db8" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/libs/starling/src" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="5529aee6-e097-4aca-8f73-e1c396d7774a" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/Flox-AS3.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
